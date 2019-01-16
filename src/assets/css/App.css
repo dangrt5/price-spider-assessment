@@ -18,16 +18,24 @@ body {
 .title {
   text-align: center;
   font-family: starwars;
+  font-size: 2.5em;
+}
+
+#darth-vader {
+  width: 250px;
+  display: block;
+  margin: 2% auto;
 }
 
 .checklist {
   border: 2px solid black;
-  padding: 0 5%;
+  padding: 1% 5%;
   margin: auto 5%;
   background-color: white;
 }
 
 .checklist-items ul {
   list-style-type: none;
-  padding-left: 0;
+  padding: 1%;
+  margin-bottom: 0;
 }
