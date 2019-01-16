@@ -15,8 +15,10 @@ class App extends Component {
 
     return (
       <Fragment>
+        <div className="title">
+          <h1>Star Wars Movie Checklist</h1>
+        </div>
         <div className="checklist">
-          <h1 className="title">Star Wars Movie Checklist</h1>
           <div className="checklist-items">
             <ul>{individualMovie}</ul>
           </div>
