@@ -20,7 +20,10 @@
   width: 15%;
   height: 25px;
   border: 2px solid black;
-  background: url(../images/darth-vader.png);
+}
+
+.individual-movie .check-box:hover {
+  background: url(../images/light-saber.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: center;
