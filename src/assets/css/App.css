@@ -3,9 +3,6 @@
   src: url(../fonts/Starjout.ttf);
 }
 
-* {
-  box-sizing: border-box;
-}
 
 body {
   width: 100vw;
@@ -15,7 +12,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(../images/background.jpg);
+  background-color: #cecece57;
 }
 
 .title {
@@ -24,14 +21,13 @@ body {
 }
 
 .checklist {
+  border: 2px solid black;
+  padding: 0 5%;
+  margin: auto 5%;
   background-color: white;
 }
 
 .checklist-items ul {
   list-style-type: none;
   padding-left: 0;
-}
-
-.checklist-items ul li input {
-  margin-right: 2%;
 }

@@ -1,3 +1,33 @@
+.individual-movie {
+  line-height: 12px;
+}
+
+.individual-movie:not(.individual-movie:last-of-type) {
+  border-bottom: 2px solid dimgray;
+}
+
+.individual-movie>div {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 .individual-movie div>* {
   display: inline-block;
+}
+
+.individual-movie .check-box {
+  width: 15%;
+  height: 25px;
+  border: 2px solid black;
+  background: url(../images/darth-vader.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+
+.individual-movie h3 {
+  width: 100%;
+  margin-left: 5%;
+  font-size: 100%;
 }

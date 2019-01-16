@@ -5,7 +5,7 @@ const IndividualMovie = props => {
   return (
     <li class="individual-movie">
       <div>
-        <input type="checkbox" />
+        <div className="check-box" />
         <h3>{props.name}</h3>
       </div>
     </li>
