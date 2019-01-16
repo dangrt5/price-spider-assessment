@@ -1,5 +1,10 @@
 .individual-movie {
   line-height: 12px;
+  border-bottom: 1px solid black;
+}
+
+.individual-movie:first-of-type {
+  border-top: 1px solid black;
 }
 
 .individual-movie:not(.individual-movie:last-of-type) {
@@ -33,4 +38,5 @@
   width: 100%;
   margin-left: 5%;
   font-size: 100%;
+  text-align: center;
 }

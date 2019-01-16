@@ -18,6 +18,13 @@ body {
 .title {
   text-align: center;
   font-family: starwars;
+  font-size: 2.5em;
+}
+
+#darth-vader {
+  width: 250px;
+  display: block;
+  margin: 2% auto;
 }
 
 .checklist {
