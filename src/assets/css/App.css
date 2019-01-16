@@ -15,6 +15,10 @@ body {
   background-color: #cecece57;
 }
 
+.container {
+  width: 75%;
+}
+
 .title {
   text-align: center;
   font-family: starwars;
