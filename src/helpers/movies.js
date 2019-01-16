@@ -1,35 +1,43 @@
 const movieList = [
   {
-    name: "Star Wars Episode IV - A New Hope",
-    img: ""
+    name: "Episode IV - A New Hope",
+    img: "",
+    year: 1977
   },
   {
-    name: "Star Wars Episode V - The Empire Strikes Back",
-    img: ""
+    name: "Episode V - The Empire Strikes Back",
+    img: "",
+    year: 1980
   },
   {
-    name: "Star Wars Episode VI - Return of the Jedi",
-    img: ""
+    name: "Episode VI - Return of the Jedi",
+    img: "",
+    year: 1983
   },
   {
-    name: "Star Wars Episode I - The Phantom Menace",
-    img: ""
+    name: "Episode I - The Phantom Menace",
+    img: "",
+    year: 1999
   },
   {
-    name: "Star Wars Episode II - Attack of the Clones",
-    img: ""
+    name: "Episode II - Attack of the Clones",
+    img: "",
+    year: 2002
   },
   {
-    name: "Star Wars Episode III - Revenge of the Sith",
-    img: ""
+    name: "Episode III - Revenge of the Sith",
+    img: "",
+    year: 2005
   },
   {
-    name: "Star Wars Episode VII - The Force Awakens",
-    img: ""
+    name: "Episode VII - The Force Awakens",
+    img: "",
+    year: 2015
   },
   {
-    name: "Star Wars Episode IX - Untitled",
-    img: ""
+    name: "Episode IX - Untitled",
+    img: "",
+    year: 2019
   }
 ];
 

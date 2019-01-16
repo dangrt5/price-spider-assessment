@@ -1,3 +1,8 @@
+@font-face {
+  font-family: starwars;
+  src: url(../fonts/Starjout.ttf);
+}
+
 * {
   box-sizing: border-box;
 }
@@ -5,7 +10,28 @@
 body {
   width: 100vw;
   height: 100vh;
+  margin: 0;
+  padding: 0;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-image: url(../images/background.jpg);
+}
+
+.title {
+  text-align: center;
+  font-family: starwars;
+}
+
+.checklist {
+  background-color: white;
+}
+
+.checklist-items ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.checklist-items ul li input {
+  margin-right: 2%;
 }

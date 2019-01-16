@@ -1,20 +1,24 @@
 import React, { Component, Fragment } from "react";
+import IndividualMovie from "./IndividualMovie";
+import movieList from "../helpers/movies";
 import "../assets/css/App.css";
 
 class App extends Component {
+  state = {
+    movieChecked: false
+  };
+
   render() {
+    const individualMovie = movieList.map(movie => {
+      return <IndividualMovie name={movie.name} />;
+    });
+
     return (
       <Fragment>
-        <div className="title">
-          <h1>Star Wars Checklist</h1>
-        </div>
         <div className="checklist">
+          <h1 className="title">Star Wars Movie Checklist</h1>
           <div className="checklist-items">
-            <ul>
-              <li>Star Wars 1</li>
-              <li>Star Wars 2</li>
-              <li>Star Wars 3</li>
-            </ul>
+            <ul>{individualMovie}</ul>
           </div>
         </div>
       </Fragment>
