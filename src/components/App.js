@@ -7,7 +7,9 @@ import "../assets/css/App.css";
 class App extends Component {
   render() {
     const individualMovie = movieList.map(movie => {
-      return <IndividualMovie name={movie.name} key={movie.name} />;
+      return (
+        <IndividualMovie name={movie.name} key={movie.year} year={movie.year} />
+      );
     });
 
     return (
