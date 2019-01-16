@@ -23,16 +23,21 @@
   border: 2px solid black;
 }
 
-.individual-movie .check-box:hover {
-  background: url(../images/light-saber.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position-x: center;
-}
-
 .individual-movie h3 {
   width: 100%;
   margin-left: 5%;
   font-size: 100%;
   text-align: center;
+}
+
+.individual-movie h3.watched {
+  text-decoration: line-through;
+  font-weight: bolder;
+}
+
+.check-box.watched {
+  background-image: url(../images/light-saber.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
 }
