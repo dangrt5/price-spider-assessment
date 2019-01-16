@@ -7,10 +7,6 @@
   border-top: 1px solid black;
 }
 
-.individual-movie:not(.individual-movie:last-of-type) {
-  border-bottom: 2px solid dimgray;
-}
-
 .individual-movie>div {
   display: flex;
   align-items: center;
