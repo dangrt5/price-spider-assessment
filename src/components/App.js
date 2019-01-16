@@ -5,13 +5,9 @@ import "../assets/css/App.css";
 import darthVader from "../assets/images/darth-vader.png";
 
 class App extends Component {
-  state = {
-    movieChecked: false
-  };
-
   render() {
     const individualMovie = movieList.map(movie => {
-      return <IndividualMovie name={movie.name} />;
+      return <IndividualMovie name={movie.name} key={movie.name} />;
     });
 
     return (
