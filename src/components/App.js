@@ -14,8 +14,10 @@ class App extends Component {
 
     return (
       <div className="container">
-        <h1 className="title">Star Wars Movie Checklist</h1>
-        <img id="darth-vader" src={darthVader} alt="Darth Vader" />
+        <div className="header">
+          <h1 className="title">Star Wars Movie Checklist</h1>
+          <img id="darth-vader" src={darthVader} alt="Darth Vader" />
+        </div>
         <div className="checklist">
           <div className="checklist-items">
             <ul>{individualMovie}</ul>

@@ -3,7 +3,6 @@
   src: url(../fonts/Starjout.ttf);
 }
 
-
 body {
   width: 100vw;
   height: 100vh;
@@ -42,4 +41,10 @@ body {
   list-style-type: none;
   padding: 1%;
   margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 25px;
+  }
 }
