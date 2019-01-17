@@ -23,6 +23,10 @@
   border: 2px solid black;
 }
 
+.individual-movie:not(:last-of-type) .check-box:hover {
+  border: 3px solid black;
+}
+
 .individual-movie h3 {
   width: 100%;
   margin-left: 5%;
@@ -32,7 +36,9 @@
 
 .individual-movie h3.watched {
   text-decoration: line-through;
+  text-decoration-color: red;
   font-weight: bolder;
+  color: gray;
 }
 
 .check-box.watched {
