@@ -4,9 +4,8 @@ A movie checklist for all Star Wars movies, for those that want to try marathoni
 
 ## Features
 
-- Listing all 8 Star Wars movies on the checklist (MVP)
-- Ability to check/uncheck the movies (MVP)
-- Sort movies by year released or by title (Post-MVP)
+- Listing all 8 Star Wars movies on the checklist
+- Ability to check/uncheck the movies
 
 ## Technologies
 
