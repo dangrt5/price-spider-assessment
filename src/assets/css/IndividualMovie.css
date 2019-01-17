@@ -1,0 +1,49 @@
+.individual-movie {
+  padding: 1%;
+  border-bottom: 1px solid black;
+}
+
+.individual-movie:first-of-type {
+  border-top: 1px solid black;
+}
+
+.individual-movie>div {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.individual-movie div>* {
+  display: inline-block;
+}
+
+.individual-movie .check-box {
+  width: 15%;
+  height: 25px;
+  border: 2px solid black;
+}
+
+.individual-movie:not(:last-of-type) .check-box:hover {
+  border: 3px solid black;
+}
+
+.individual-movie h3 {
+  width: 100%;
+  margin-left: 5%;
+  font-size: 100%;
+  text-align: center;
+}
+
+.individual-movie h3.watched {
+  text-decoration: line-through;
+  text-decoration-color: red;
+  font-weight: bolder;
+  color: gray;
+}
+
+.check-box.watched {
+  background-image: url(../images/light-saber.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}

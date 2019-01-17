@@ -12,8 +12,8 @@ A movie checklist for all Star Wars movies, for those that want to try marathoni
 
 - JavaScript (ES6)
 - React.js
-- CSS
+- CSS (Flexbox)
 
-## Authors
+## Author
 
 - Randy Dang [https://github.com/dangrt5](https://github.com/dangrt5)
