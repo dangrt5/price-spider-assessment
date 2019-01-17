@@ -25,6 +25,7 @@
 
 .individual-movie:not(:last-of-type) .check-box:hover {
   border: 3px solid black;
+  cursor: pointer;
 }
 
 .individual-movie h3 {
